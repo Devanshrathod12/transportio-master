@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Truck Booking</title>
+    <link rel="stylesheet" type="text/css" href="booking.css">
+</head>
+<body background="/assets/images/hero-banner.jpg" >
+    <div class="container">
+        <h1>Truck Booking</h1>
+        <form action="/submit_booking" method="post">
+            <label for="Full Name">Full Name:</label><br>
+            <input type="text" id="pickup" name="pickup"><br>
+            <label for="pickup">Pickup Location:</label><br>
+            <input type="text" id="pickup" name="pickup"><br>
+            <label for="dropoff">Dropoff Location:</label><br>
+            <input type="text" id="dropoff" name="dropoff"><br>
+            <label for="truck">Type of Truck:</label><br>
+            <select id="truck" name="truck">
+                <option  value="small">ACE / DOST / PICKUP (1.5 TON)</option>
+                <option value="medium">EICHER 14FT (3.5 TON)</option>
+                <option value="large">EICHER 17FT (5 TON)</option>
+                <option value="small">EICHER 19FT (7 TON)</option>
+                <option value="medium">20FT CONTAINER (6.5 TON)</option>
+                <option value="large">EICHER PRO 22FT (10 TON)</option>
+            </select><br>
+            <label for="truck">Type of materials:</label><br>
+            <select id="truck" name="truck">
+                <option value="small">Industrial Machinery</option>
+                <option value="medium">Household Goods</option>
+                <option value="large">Part Load / Parcel / luggage transport (N.A)</option>
+                <option value="medium">Fresh Fruits / Vegetables (N.A)</option>
+                <option value="large">FMCG / Packed Food Products</option>
+                <option value="medium">Healthcare / Pharmacy Products / Medicines</option>
+                <option value="large">Rice/Wheat/Grains ( N.A)</option>
+                <option value="medium">Chemicals Powder / Liquid Barrels</option>
+                <option value="large">Solar / Battery / Inverter Products</option>
+                <option value="medium">Aluminium / Steel / Metal Products
+                </option>
+                <option value="large">Car / Bike transport (Not available)</option>
+                <option value="medium">Books / Stationery / Toys / Gifts</option>
+                <option value="large">Others</option>
+            </select><br>
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date"><br>
+            <a href="#">
+                <a href="/payforbook/paymnt.html">
+                    <input  value="                                                Book">  
+                </a>
+            </a>              
+        </form>
+    </div>
+</body>
+</html>
