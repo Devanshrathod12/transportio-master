@@ -82,14 +82,14 @@
   width: 100%;
   padding:12px;
   font-size: 17px;
-  background: #5c615e;
+  background: #eef1ef;
   color:#fff;
   margin-top: 5px;
   cursor: pointer;
 }
 
 .container form .submit-btn:hover{
-  background: #88918c;
+  background: #62a781;
 }
 
 
@@ -119,7 +119,7 @@
   
   #myButton:hover + #popup-box, #myButton:focus + #popup-box {
     display: block;
-    background-color: #9bb2ba;
+    background-color: #849297;
   }
   
   #myButton:hover + #overlay, #myButton:focus + #overlay {
@@ -140,7 +140,7 @@
   }
   #myButton{
     margin-left: 265px;
-    color: #000;
-    background-color: rgba(27, 54, 134, 0.333);
+    color: #151111;
+    background-color: rgba(79, 100, 162, 0.333);
     border: 2px solid black;
   }
