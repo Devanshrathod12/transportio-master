@@ -1,0 +1,39 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+    
+  }
+  
+  td, th{
+    border: 1px solid #766f6f;
+    text-align: center;
+    padding: 10px;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ada5a5a5;
+  }
+
+  nav {
+    background-color: #102fe1;
+    padding: 10px;
+    color: azure;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+
